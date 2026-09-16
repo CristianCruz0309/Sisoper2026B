@@ -1,0 +1,9 @@
+# Ejecutables compilados
+part_memory
+arreglo_dinamico
+arreglo_dinamico_extendido
+files.out
+mem2
+
+# Archivos de respaldo/temporales
+*.save
