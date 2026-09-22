@@ -5,6 +5,7 @@ arreglo_dinamico_extendido
 files.out
 mem2
 part_memory_backup.c
+virt_mem
 
 # Archivos de respaldo/temporales
 *.save
