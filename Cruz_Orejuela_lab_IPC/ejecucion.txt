@@ -1,0 +1,18 @@
+[Consumidor 1] Leído del FIFO. 1 * 3 = 3
+[Productor] Enviado: 1 y 3
+[Consumidor 2] Leído de Memoria Compartida. 1 + 3 = 4
+[Productor] Enviado: 2 y 4
+[Consumidor 1] Leído del FIFO. 2 * 4 = 8
+[Consumidor 2] Leído de Memoria Compartida. 2 + 4 = 6
+[Productor] Enviado: 3 y 5
+[Consumidor 1] Leído del FIFO. 3 * 5 = 15
+[Consumidor 2] Leído de Memoria Compartida. 3 + 5 = 8
+[Productor] Enviado: 4 y 6
+[Consumidor 2] Leído de Memoria Compartida. 4 + 6 = 10
+[Consumidor 1] Leído del FIFO. 4 * 6 = 24
+[Productor] Enviado: 5 y 7
+[Consumidor 1] Leído del FIFO. 5 * 7 = 35
+[Consumidor 2] Leído de Memoria Compartida. 5 + 7 = 12
+[Consumidor 1] Arreglo final de multiplicaciones: 3 8 15 24 35 
+[Consumidor 2] Arreglo final de sumas: 4 6 8 10 12 
+[Padre] Todos los procesos han terminado. Limpiando recursos...
