@@ -3,7 +3,7 @@
 
 ---
 
-## 1. Código Fuente (`minips.c`)
+## 1. Código Fuente (`mimips.c`)
 
 Implementación completa en C (estándar `gnu99`) que recorre el sistema de archivos virtual `/proc`, extrae los campos relevantes del Bloque de Control de Procesos (PCB) desde `/proc/<PID>/status` y calcula el total de procesos activos junto con la memoria física residente acumulada (`VmRSS`).
 
@@ -105,7 +105,7 @@ int main(void)
 ### Compilación y Ejecución
 
 ```bash
-gcc -Wall -Wextra -std=gnu99 -o minips minips.c
+gcc -Wall -Wextra -std=gnu99 -o minips mimips.c
 ./minips
 ```
 
